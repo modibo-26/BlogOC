@@ -1,13 +1,14 @@
 <?php
 
+namespace App\Controller;
 
-require __DIR__ .  '/../models/postModel.php';
+use App\Model\Post;
 
-class postController {
+class PostController {
     public $postModel = false;
 
     public function __construct() {
-        $this->postModel = new postModel();
+        $this->postModel = new Post();
     }
 
     public function list() {

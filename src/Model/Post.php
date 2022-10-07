@@ -1,9 +1,10 @@
 <?php
 
-require_once __DIR__ .  '/../vendor/autoload.php';
+namespace App\Model;
 
+use \PDO;
 
-class postModel {
+class Post {
 
     public $fluent = false;
 

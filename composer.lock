@@ -1,0 +1,140 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f1d878166f88011e9a5946fb2448e354",
+    "packages": [
+        {
+            "name": "envms/fluentpdo",
+            "version": "v2.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/envms/fluentpdo.git",
+                "reference": "1985e0e8406a56140f387bc9bec786b419cbeccc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/envms/fluentpdo/zipball/1985e0e8406a56140f387bc9bec786b419cbeccc",
+                "reference": "1985e0e8406a56140f387bc9bec786b419cbeccc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "envms/fluent-test": "^1.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Envms\\FluentPDO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "envms",
+                    "homepage": "https://env.ms"
+                }
+            ],
+            "description": "FluentPDO is a quick and light PHP library for rapid query building. It features a smart join builder, which automatically creates table joins.",
+            "homepage": "https://github.com/envms/fluentpdo",
+            "keywords": [
+                "builder",
+                "database",
+                "db",
+                "dbal",
+                "fluent",
+                "mysql",
+                "oracle",
+                "pdo",
+                "query"
+            ],
+            "support": {
+                "issues": "https://github.com/envms/fluentpdo/issues",
+                "source": "https://github.com/envms/fluentpdo/tree/v2.2.4"
+            },
+            "time": "2022-01-27T21:49:44+00:00"
+        },
+        {
+            "name": "pecee/simple-router",
+            "version": "4.3.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skipperbent/simple-php-router.git",
+                "reference": "032a2ae7e0e2d876599758f85b61bc965a63ea7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/032a2ae7e0e2d876599758f85b61bc965a63ea7c",
+                "reference": "032a2ae7e0e2d876599758f85b61bc965a63ea7c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1",
+                "phpstan/phpstan": "^0",
+                "phpstan/phpstan-deprecation-rules": "^0",
+                "phpstan/phpstan-phpunit": "^0",
+                "phpstan/phpstan-strict-rules": "^0",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pecee\\": "src/Pecee/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Sessingø",
+                    "email": "simon.sessingoe@gmail.com"
+                }
+            ],
+            "description": "Simple, fast PHP router that is easy to get integrated and in almost any project. Heavily inspired by the Laravel router.",
+            "keywords": [
+                "framework",
+                "input-handler",
+                "laravel",
+                "pecee",
+                "php",
+                "request-handler",
+                "route",
+                "router",
+                "routing",
+                "routing-engine",
+                "simple-php-router",
+                "url-handling"
+            ],
+            "support": {
+                "issues": "https://github.com/skipperbent/simple-php-router/issues",
+                "source": "https://github.com/skipperbent/simple-php-router/issues"
+            },
+            "time": "2021-07-17T23:45:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

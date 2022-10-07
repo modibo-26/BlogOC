@@ -1,0 +1,14 @@
+{
+    "name": "modibo/blog",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}
